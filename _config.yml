@@ -1,1 +1,15 @@
-theme: jekyll-theme-cayman
+title: Jacek Wozniak 
+subtitle: personal page
+email: jacekwozn14k.work@gmail.com
+
+# socials
+socials:
+  github: https://github.com/JacekWozniak12
+  ohmydev: https://ohmydev.pl/users/jac3kw0zniak
+
+# build
+markdown: kramdown
+
+sass:
+  style: compressed
+
