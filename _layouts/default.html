@@ -1,25 +1,18 @@
+<!-- Layout for other kind of posts -->
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="description">
-    <meta name="google" content="notranslate">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page.title}}</title>
-    <link href="./assets/css/main.3f6952e4.css" rel="stylesheet">
-</head>
-</head>
+{% include head.html %}
 
 <body>
-    {% include site-borders.html %} {% include navigation.html %}
+    {% include site-borders.html %} {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
 
     <div class="section-container">
         <div class="container">
             {{ content }}
         </div>
     </div>
+
     {% include footer.html %} {% include scripts.html %}
 </body>
 

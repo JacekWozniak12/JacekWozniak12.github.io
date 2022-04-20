@@ -1,7 +1,4 @@
 ---
 layout: index
-title: Hello
+title: Jacek Woźniak Personal Page
 ---
-
-# Test 
-Hello world say somethin
