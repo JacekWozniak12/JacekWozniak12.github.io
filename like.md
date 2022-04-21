@@ -21,7 +21,7 @@ If I'm going to search for something that I can play with bunch of my friends in
 ### Movies and TV series
 I prefer short forms, but sometimes I can watch longer, episodic forms. I prefer war movies, historical drama, or just creations that are more grounded in reality or esthetically pleasing. Doesn't matter if it is animation or not.
 #### War Movies
-I'm big fan of *Dirty Dozen*, *Dunkirk* and *Saving Private Ryan*, even knowing that less or more they aren't fully sticking to historical realms. Besides that I will recommend movies like *Where Iron Crosses Grow*, *Stalingrad (1993)* and *Zulu*.
+I'm big fan of *Dirty Dozen*, *Dunkirk* and *Saving Private Ryan*, even knowing that less or more they aren't fully sticking to historical realms. Besides that I will recommend movies like *Where the Iron Crosses Grow*, *Stalingrad (1993)* and *Zulu*.
 #### Drama and others...
 My favorites here are *Whiplash*, *Grand Budapest Hotel*, *Eternal Sunshine of The Spotless Mind*. 
 #### ...as for the series

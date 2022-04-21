@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Oh My Dev - Quick Prototyping with Unity (PL)
+layout: post
+title: "[PL] Oh My Dev - Quick Prototyping with Unity"
 categories: [Feed, Unity, Programming, C#]
 imageLink: "/assets/images/posts/blog-miniatures/blog-ghpages-test.gif"
 ---

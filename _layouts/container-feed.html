@@ -14,8 +14,8 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    {% assign posts = site.posts | where: "categories", "Feed" %}
-                    {% include carousel.html posts=posts%}
+                    {% assign posts = site.posts %}
+                    {% include item-displayer.html posts=posts%}
                 </div>
             </div>
         </div>

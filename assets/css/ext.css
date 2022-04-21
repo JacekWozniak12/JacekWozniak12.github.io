@@ -1,9 +1,14 @@
 .mail:hover::after,
 .mail:focus::after {
-    content: "jacekwozn14k.work@gmail.com"
+    content: ": jacekwozn14k.work@gmail.com"
 }
 
-body, h4 {
+.mail::after {
+    content: "(Hover)"
+}
+
+body,
+h4 {
     font-size: 15px;
 }
 
@@ -17,25 +22,81 @@ img {
     margin: 15px 0 15px 0;
 }
 
+.card-wrapper {
+    max-height: 400px;
+    margin: 10px;
+}
+
 .card-container {
     background-color: #fff;
-    padding: 2rem 5rem;
+    padding: 1rem 1rem;
     position: relative;
-    width: 81%;
-    margin: -3em -2px 20px;
+    width: 75%;
+    margin: -3em 15px 20px;
+    border: 2px solid black;
+    max-height: 200px;
+    overflow-y: scroll;
 }
 
 .card-container h3 {
     font-size: 16px;
 }
 
-.card-image img{
-    filter: blur(2px);
-    filter: saturate(50%);
+.card-image img {
+    filter: saturate(15%);
+    transition: 0.2s ease;
 }
 
-.card-image:hover img{
-    filter: blur(0);
+.card-image:hover img {
     filter: saturate(100%);
     transition: 0.2s ease;
+}
+
+.contact {
+    color: #992222 !important;
+    text-decoration: underline !important;
+}
+
+.contact:hover {
+    text-decoration: underline !important;
+}
+
+.navbar-inverse .contact {
+    color: #9d9d9d !important;
+}
+
+.card-displayer {
+    display: grid;
+    align-content: space-around;
+    justify-items: start;
+}
+
+@media (min-width: 576px) {
+    .card-displayer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .card-displayer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .card-displayer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1240px) {
+    .card-displayer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card-displayer:after,
+.card-displayer:before {
+    content: "" !important;
+    display: none !important;
 }

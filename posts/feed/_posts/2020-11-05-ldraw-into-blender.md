@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Importing from BrickLink Studio into Blender 2.81
 categories: [Feed, Blender, 3D]
 imageLink: "/assets/images/posts/ldraw-into-blender/00-main.PNG"

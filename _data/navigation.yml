@@ -1,15 +1,18 @@
 - name: Home
   link: /
-- name: Apps
-  link: /apps.html
 - name: Posts
   link: /posts.html
+- name: Tools
+  link: /use.html
+- name: Hobbies
+  link: /like.html
 - name: Github
   link: https://github.com/JacekWozniak12
+  contact: yes
 - name: Oh My Dev
   link: https://ohmydev.pl/users/jac3kw0zniak
-- name: I like:...
-  link: /like.html
-- name: Mail (Hover)
+  contact: yes
+- name: Mail
   link: mailto:jacekwozn14k.work@gmail.com
+  contact: yes
   hover-class: mail

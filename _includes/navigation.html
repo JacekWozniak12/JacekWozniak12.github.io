@@ -13,7 +13,8 @@
                 <ul class="nav navbar-nav ">
                     {% for item in site.data.navigation %}
                     <li>
-                        <a href="{{item.link}}" title="{{item.name}}" {% if item.hover-class %} class="{{item.hover-class}}" {% endif %}>{{item.name}}
+                        <a href="{{item.link}}" title="{{item.name}}" class="{% if item.hover-class %}{{item.hover-class}}{% endif %} {% if item.contact %}contact{% endif %}">
+                            {{item.name}}
                         </a>
                     </li>
                     {% endfor %}

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Oh My Dev - A Few Experiences with Attributes (PL)
+layout: post
+title: "[PL] Oh My Dev - A Few Experiences with Attributes"
 categories: [Feed, Unity, Programming, C#]
 imageLink: "/assets/images/posts/blog-miniatures/experiences-with-attributes.jpg"
 ---
