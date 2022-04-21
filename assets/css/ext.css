@@ -1,0 +1,12 @@
+.mail:hover::after,
+.mail:focus::after {
+    content: "jacekwozn14k.work@gmail.com"
+}
+
+p {
+    font-size: 15px;
+}
+
+.footer-container p {
+    font-size: 11px;
+}

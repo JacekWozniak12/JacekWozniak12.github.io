@@ -1,0 +1,62 @@
+<!-- Layout for groups of posts / apps -->
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include site-borders.html %} {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
+
+    <div class="section-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 section-container-spacer">
+                    <div class="text-center">
+                        {{ content }}
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide projects-carousel">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+
+                                    {% for post in site.posts %}
+                                    {% if post.categories contains "Apps" %}
+                                    <div class="col-sm-4">
+                                        <a href="{{post.url}}" title="" class="black-image-project-hover">
+                                            <img src="" alt="{{post.title}} image"
+                                                class="img-responsive">
+                                        </a>
+                                        <div class="card-container card-container-lg">
+                                            <h4>{{post.date}}</h4>
+                                            <h3>{{post.title}}</h3>
+                                            <p>{{post.Excerpts}}</p>
+                                            <a href="{{post.Link}}" title=""
+                                                class="btn btn-default">{{post.linkType}}</a>{{post.linkButton}}
+                                            {% if post.secondaryLink %}
+                                            <a href="{{post.secondaryLink}}" title=""
+                                                class="btn btn-default">{{post.secondaryLinkType}}</a>{{post.secondaryLinkButton}}
+                                                {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+        {% include scripts.html %}
+</body>
+
+</html>
