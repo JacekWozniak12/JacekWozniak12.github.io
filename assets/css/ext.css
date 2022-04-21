@@ -3,10 +3,39 @@
     content: "jacekwozn14k.work@gmail.com"
 }
 
-p {
+body {
     font-size: 15px;
 }
 
 .footer-container p {
     font-size: 11px;
+}
+
+img {
+    display: block;
+    max-width: 600px;
+    margin: 15px 0 15px 0;
+}
+
+.card-container {
+    background-color: #fff;
+    padding: 2rem 5rem;
+    position: relative;
+    width: 81%;
+    margin: -3em -2px 20px;
+}
+
+.card-container h3 {
+    font-size: 16px;
+}
+
+.card-image img{
+    filter: blur(2px);
+    filter: saturate(50%);
+}
+
+.card-image:hover img{
+    filter: blur(0);
+    filter: saturate(100%);
+    transition: 0.2s ease;
 }

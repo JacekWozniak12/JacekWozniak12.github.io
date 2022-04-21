@@ -4,4 +4,4 @@ title: Jacek Woźniak Personal Page
 ---
 
 ## Posts
-Here I present all posts that I have written for multiple various sites. Some of those are in Polish.
+Here I present all posts that I have written. Some of those are in Polish.
