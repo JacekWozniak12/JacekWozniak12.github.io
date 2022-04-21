@@ -16,11 +16,15 @@ Mostly I'm using [**C#**](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of
 ### Software
 #### Unity
 ![](/assets/images/posts/i-use/tools-unity.PNG)
-[Link](https://unity3d.com/get-unity/download)
+[**Link**](https://unity3d.com/get-unity/download)
+
+Currently I'm using versions 2020 / 2021 and 2022. 
 
 #### Visual Studio Code
 ![](/assets/images/posts/i-use/tools-vsc.PNG)
-[Link](https://code.visualstudio.com/)
+[**Link**](https://code.visualstudio.com/)
+
+This is my go to code editor. 
 
 
 #### Others

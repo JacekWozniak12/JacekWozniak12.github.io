@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Posts
+- name: Work
   link: /posts.html
 - name: Tools
   link: /use.html

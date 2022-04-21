@@ -1,6 +1,6 @@
 ---
 layout: default
-title: I like...
+title: I Like...
 ---
 ### Activities
 #### Tea sipping

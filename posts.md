@@ -1,6 +1,4 @@
 ---
 layout: container-feed
-title: Jacek Woźniak Personal Page
+title: I Did...
 ---
-
-## Posts

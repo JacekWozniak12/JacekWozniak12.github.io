@@ -23,19 +23,27 @@ img {
 }
 
 .card-wrapper {
-    max-height: 400px;
+    border: 1px black dashed;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
     margin: 10px;
+    justify-content: space-between;
 }
 
 .card-container {
     background-color: #fff;
-    padding: 1rem 1rem;
+    padding: 9px;
     position: relative;
-    width: 75%;
-    margin: -3em 15px 20px;
-    border: 2px solid black;
-    max-height: 200px;
+    max-height: 75%;
     overflow-y: scroll;
+    width: calc(100%);
+    margin: 0px;
+}
+
+.card-image {
+    display: block;
+    max-height: 45%;
 }
 
 .card-container h3 {
@@ -45,6 +53,7 @@ img {
 .card-image img {
     filter: saturate(15%);
     transition: 0.2s ease;
+    margin: 0;
 }
 
 .card-image:hover img {
@@ -100,3 +109,4 @@ img {
     content: "" !important;
     display: none !important;
 }
+
