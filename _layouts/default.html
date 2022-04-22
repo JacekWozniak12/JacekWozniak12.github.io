@@ -3,16 +3,21 @@
 {% include head.html %}
 
 <body>
-    {% include site-borders.html %} {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
+    {% include site-borders.html %}
+    {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
 
-    <div class="section-container">
-        <div class="container">
-            <h2>{{page.title}}</h2>
-            {{ content }}
+    <div class="page-container">
+
+        <div class="section-container flex-display">
+            <div class="container">
+                <h2>{{page.title}}</h2>
+                {{ content }}
+            </div>
         </div>
-    </div>
 
-    {% include footer.html %}
+        {% include footer.html %}
+    </div>
+    
     {% include scripts.html %}
 </body>
 

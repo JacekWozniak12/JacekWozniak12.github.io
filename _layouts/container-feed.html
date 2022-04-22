@@ -3,18 +3,21 @@
 {% include head.html %}
 
 <body>
-    {% include site-borders.html %} {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
-
-    <div class="section-container">
-        <div class="container">
-            <h2>{{page.title}}</h2>
-            {{ content }}
-            {% assign posts = site.posts %}
-            {% include item-displayer.html posts=posts%}
+    {% include site-borders.html %}
+    {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
+    <div class="page-container">
+        <div class="section-container flex-display">
+            <div class="container">
+                <h2>{{page.title}}</h2>
+                {{ content }}
+                {% assign posts = site.posts %}
+                {% include item-displayer.html posts=posts%}
+            </div>
         </div>
+        {% include footer.html %}
     </div>
-
-    {% include footer.html %}
+    
     {% include scripts.html %}
 </body>
+
 </html>
