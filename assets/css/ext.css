@@ -43,9 +43,12 @@ body.minimal {
     background-color: #000;
 }
 
-body.invert
-{
+body.invert {
     background-color: #777;
+}
+
+.footer-container {
+    min-height: 50px;
 }
 
 .footer-container p {
@@ -174,4 +177,9 @@ img {
 
 ::-webkit-scrollbar-thumb {
     background-color: #eee;
+}
+
+.footer-container {
+    top: 80px;
+    position: relative;
 }
