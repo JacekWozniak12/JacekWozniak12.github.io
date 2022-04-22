@@ -15,11 +15,11 @@ body.invert {
 
 .mail:hover::after,
 .mail:focus::after {
-    content: ": jacekwozn14k.work@gmail.com"
+    content: "jacekwozn14k.work@gmail.com"
 }
 
 .mail::after {
-    content: "(Hover)"
+    content: "Mail (Hover)"
 }
 
 .flex-display {
@@ -52,7 +52,7 @@ body.invert {
 }
 
 .footer-container p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 img {
@@ -182,4 +182,21 @@ img {
 .footer-container {
     top: 80px;
     position: relative;
+}
+
+.navbar-default {
+    margin: 0;
+}
+
+.navbar-default .container {
+    padding: 0px;
+}
+
+.icon {
+    height: 16px;
+    margin: 1px;
+}
+
+.flex-display .container {
+    flex-basis: 73vh;
 }

@@ -14,7 +14,10 @@
                     {% for item in site.data.navigation %}
                     <li>
                         <a href="{{item.link}}" title="{{item.name}}" class="{% if item.hover-class %}{{item.hover-class}}{% endif %} {% if item.contact %}contact{% endif %}">
-                            {{item.name}}
+                            {% if item.icon %} <img src="{{item.icon}}" class="icon"></img> 
+                            {% elsif item.name != "Mail" %} 
+                            {{item.name}} 
+                            {% endif %}
                         </a>
                     </li>
                     {% endfor %}

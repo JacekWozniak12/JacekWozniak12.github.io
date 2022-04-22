@@ -1,12 +1,14 @@
 - name: Home
   link: /
+  icon: /assets/images/nav/icons8-house-with-a-garden-32.png
 - name: Work
   link: /posts.html
 - name: Tools
   link: /use.html
-- name: Hobbies
+- name: Hobby
   link: /like.html
 - name: Github
+  icon: /assets/images/nav/GitHub-Mark-Light-32px.png
   link: https://github.com/JacekWozniak12
   contact: yes
 - name: Oh My Dev
