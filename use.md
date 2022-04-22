@@ -40,13 +40,11 @@ This is my go to code editor. It runs quickly, provides almost all features that
 *****
 
 #### Communication
-![](/assets/images/posts/i-use/tools-gd.PNG)
-<br>
 
 Mostly I prefer using **Discord**, **Trello** and **Todoist**. **Google Docs** works fine enough if needed. I've used **Microsoft Teams**, **Skype** and **Slack** aswell. Software here really depends on project needs. As for my git services, nowadays **Fork** and git plugin for **Visual Studio Code** is good enough. 
 
 *****
 #### Others
-I used **Blender**, **Gimp**, **Audacity**, **Bosca Ceoil**, **Typora** (while it was free...) depends on my needs.
+I used **Blender**, **Gimp**, **Audacity**, **ScreenToGif**, **OBS**, **Bosca Ceoil**, **Typora** (while it was free...) depends on my needs.
 
 *****
