@@ -2,8 +2,7 @@
 <html lang="en">
 {% include head.html %}
 
-<body>
-    {% include site-borders.html %}
+<body class="invert">
     {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
     <div class="page-container">
         <div class="section-container flex-display">
@@ -13,10 +12,9 @@
                 {% assign posts = site.posts %}
                 {% include item-displayer.html posts=posts%}
             </div>
+            {% include footer.html %}
         </div>
-        {% include footer.html %}
     </div>
-    
     {% include scripts.html %}
 </body>
 
