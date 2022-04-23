@@ -10,7 +10,7 @@
                 <h2>{{page.title}}</h2>
                 {{ content }}
                 {% assign posts = site.posts %}
-                {% include item-displayer.html posts=posts%}
+                {% include item-displayer.html posts=posts displayDate="yes" %}
             </div>
             {% include footer.html %}
         </div>

@@ -1,20 +1,19 @@
 - name: Home
   link: /
   icon: /assets/images/nav/icons8-house-with-a-garden-32.png
-- name: Work
+- name: Feed
   link: /posts.html
 - name: Tools
   link: /use.html
 - name: Hobby
   link: /like.html
+- name: Contact
+  link: /contact.html
+  hover-class: mail
 - name: Github
   icon: /assets/images/nav/GitHub-Mark-Light-32px.png
   link: https://github.com/JacekWozniak12
-  contact: yes
+  out: yes
 - name: Oh My Dev
   link: https://ohmydev.pl/users/jac3kw0zniak
-  contact: yes
-- name: Mail
-  link: mailto:jacekwozn14k.work@gmail.com
-  contact: yes
-  hover-class: mail
+  out: yes

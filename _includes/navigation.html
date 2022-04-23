@@ -13,7 +13,7 @@
                 <ul class="nav navbar-nav ">
                     {% for item in site.data.navigation %}
                     <li>
-                        <a href="{{item.link}}" title="{{item.name}}" class="{% if item.hover-class %}{{item.hover-class}}{% endif %} {% if item.contact %}contact{% endif %}">
+                        <a href="{{item.link}}" title="{{item.name}}" class="{% if item.hover-class %}{{item.hover-class}}{% endif %} {% if item.out %}contact{% endif %}">
                             {% if item.icon %} <img src="{{item.icon}}" class="icon"></img> 
                             {% elsif item.name != "Mail" %} 
                             {{item.name}} 

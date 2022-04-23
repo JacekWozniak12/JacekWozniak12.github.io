@@ -13,15 +13,6 @@
     filter: invert(1);
 }
 
-.mail:hover::after,
-.mail:focus::after {
-    content: "jacekwozn14k.work@gmail.com"
-}
-
-.mail::after {
-    content: "Mail (Hover)"
-}
-
 .flex-display {
     display: flex;
     flex-direction: column;
@@ -62,6 +53,7 @@ img {
 }
 
 .card-wrapper {
+    background-color: #fff;
     border: 1px black dashed;
     display: flex;
     flex-direction: column;
@@ -181,6 +173,10 @@ img {
         width: 100%;
         margin: 0px;
     }
+
+    .index-card-container>.card-displayer .card-container.card-container-lg {
+        background-color: #000;
+    }
 }
 
 .img-responsive {
@@ -221,4 +217,43 @@ img {
 
 .flex-display .container {
     flex-basis: 73vh;
+}
+
+.hero-full-container .hero-full-wrapper {
+    height: auto;
+    min-height: 0;
+}
+
+.index-card-container>.card-displayer>.card-wrapper .card-container {
+    background-color: #000;
+}
+
+.index-card-container>.card-displayer>.card-wrapper>.card-image {
+    filter: invert(0);
+}
+
+.index-card-container>.card-displayer>.card-wrapper>.card-container .btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+}
+
+.index-card-container>.card-displayer>.card-wrapper>.card-container .btn-default:hover,
+.index-card-container>.card-displayer>.card-wrapper>.card-container .btn-default:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.hero-full-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-card-container>.card-displayer>.card-wrapper
+{
+    border: 0px black solid;
+    background-color: black;
 }

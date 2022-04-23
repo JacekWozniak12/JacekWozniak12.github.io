@@ -1,15 +1,30 @@
 <div class="card-displayer">
     {% for post in include.posts %}
+    {% if include.categories == null or post.categories contains include.categories %}
     <div class="card-wrapper">
-        <a href="{{post.url}}" title="" class="card-image">
+        <div class="card-image">
             <img src="{{post.imageLink}}" alt="{{post.title}} image" class="img-responsive">
-        </a>
-
+        </div>
         <div class="card-container card-container-lg">
-            <h4>{{post.date | date_to_long_string}}</h4>
+            <div class="Buttons">             
+                {% if post.appUrl %}
+                <a class="btn btn-default" href="{{post.appUrl}}">Play</a>
+                {% endif %}
+
+                {% if post.codeUrl %}
+                <a class="btn btn-default" href="{{post.codeUrl}}">Code</a>
+                {% endif %}
+
+                <a class="btn btn-default" href="{{post.url}}">Read</a>
+            
+            </div>
             <h3>{{post.title}}</h3>
+            {% if include.displayDate %}
+            <h4>{{post.date | date_to_long_string}}</h4>
+            {% endif %}
             <p>{{post.excerpt}}</p>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </div>
