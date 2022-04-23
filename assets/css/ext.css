@@ -184,7 +184,7 @@ img {
     position: relative;
 }
 
-.navbar-default {
+.navbar-default, .navbar {
     margin: 0;
 }
 
