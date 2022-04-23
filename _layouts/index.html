@@ -9,7 +9,10 @@
     <div class="hero-full-container background-image-container white-text-container"
         style="background-image: url('./assets/images/pexels-screeny-11839889.jpg')">
         {% include animated-text.html %}
+        {% assign posts = site.posts | categories=Apps %}
     </div>
+    {% include item-displayer.html posts=posts%}
+
     {% include scripts.html %}
 </body>
 

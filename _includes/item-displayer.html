@@ -1,19 +1,15 @@
-    <div class="card-displayer">
-        {% for post in include.posts %}
-        <div class="card-wrapper">
-            <a href="{{post.url}}" title="" class="card-image">
-                <img src="{{post.imageLink}}" alt="{{post.title}} image" class="img-responsive">
-            </a>
-            <div class="card-container card-container-lg">
-                <h4>{{post.date | date_to_long_string}}</h4>
-                <h3>{{post.title}}</h3>
-                <p>{{post.excerpt}}</p>
-                <a href="{{post.url}}" title="" class="btn btn-default">{{post.layout | capitalize }}</a>
-                {% if post.secondaryLink %}
-                <a href="{{post.secondaryLink}}" title=""
-                    class="btn btn-default">{{post.secondaryLinkType}}</a>{{post.secondaryLinkButton}}
-                {% endif %}
-            </div>
+<div class="card-displayer">
+    {% for post in include.posts %}
+    <div class="card-wrapper">
+        <a href="{{post.url}}" title="" class="card-image">
+            <img src="{{post.imageLink}}" alt="{{post.title}} image" class="img-responsive">
+        </a>
+
+        <div class="card-container card-container-lg">
+            <h4>{{post.date | date_to_long_string}}</h4>
+            <h3>{{post.title}}</h3>
+            <p>{{post.excerpt}}</p>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
+</div>
