@@ -114,7 +114,7 @@ img {
     color: #fd0 !important;
 }
 
-.navbar-inverse
+.navbar-nav>li>a
 {
     color: #eee;
 }
