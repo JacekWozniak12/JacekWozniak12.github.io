@@ -257,3 +257,11 @@ img {
     border: 0px black solid;
     background-color: black;
 }
+
+.navbar-inverse>.container{
+    width: 100%;
+}
+
+.navbar-inverse{
+    background-color: rgba(0, 0, 0, 0.822);
+}
