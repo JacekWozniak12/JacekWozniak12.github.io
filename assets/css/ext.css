@@ -111,7 +111,12 @@ img {
 }
 
 .navbar-inverse .contact {
-    color: #9d9d9d !important;
+    color: #fd0 !important;
+}
+
+.navbar-inverse
+{
+    color: #eee;
 }
 
 .card-displayer {
