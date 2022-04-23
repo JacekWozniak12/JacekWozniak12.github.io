@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="invert">
+    {% include navigation.html navigation-style="navbar-fixed-top navbar-default"%}
+    <div class="page-container">
+        <div class="section-container flex-display">
+            <div class="container">
+                <h2>{{page.title}}</h2>
+                {{ content }}
+                {% assign posts = site.posts %}
+                {% include item-displayer.html posts=posts%}
+            </div>
+            {% include footer.html %}
+        </div>
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+title: Jacek Wozniak 
+subtitle: personal page
+
+# build
+markdown: kramdown
+
+sass:
+  style: compressed
+
+collections:
+  apps:
+    output: true
+    permalink: /apps/:title.html
+
+  feed:
+    output: true
+    permalink: /feed/:title.html
