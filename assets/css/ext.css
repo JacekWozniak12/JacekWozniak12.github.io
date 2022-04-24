@@ -35,7 +35,7 @@ body.minimal {
 }
 
 body.invert {
-    background-color: #777;
+    background-color: #111;
 }
 
 .footer-container {
@@ -100,14 +100,6 @@ img {
 
 .contact:hover {
     text-decoration: underline !important;
-}
-
-.navbar>.container {
-    margin: 0;
-}
-
-.navbar-inverse>.container {
-    margin-left: -15px;
 }
 
 .navbar-inverse ul>li>a {
@@ -245,23 +237,48 @@ img {
     border-color: #000;
 }
 
-.hero-full-container
-{
+.hero-full-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.index-card-container>.card-displayer>.card-wrapper
-{
+.index-card-container>.card-displayer>.card-wrapper {
     border: 0px black solid;
     background-color: black;
 }
 
-.navbar-inverse>.container{
-    width: 100%;
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.navbar-inverse .container {
+    padding: 0px;
 }
 
-.navbar-inverse{
-    background-color: rgba(0, 0, 0, 0.822);
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {
+        padding-top: 30px;
+        font-size: 32px;
+    }
+
+    .flex-display {
+        display: block;
+    }
+
+    .hero-full-container {
+        display: block;
+    }
+
+    img {
+        max-width: 90vw;
+    }
+
+    .card-wrapper {
+        max-height: 450px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        border-right: 0px solid #fff;
+    }
 }
