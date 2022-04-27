@@ -18,12 +18,12 @@ Circa late 2020. Did it as assigment for my studies. I wanted to recreate rifle 
 #### Model limitations 
 ![](/assets/images/posts/blast-from-the-past/animation1.gif)
 
-After that I worked on some animations that I would use in Unity. Most of them were things like firing, movement or reload. I was trying dealing with one cartrigde and cartridge boat reload, but after few not pretty looking attempts just finished on basic one.
 #### Reload
+After that I worked on some animations that I would use in Unity. Most of them were things like firing, movement or reload. I was trying dealing with one cartrigde and cartridge boat reload, but after few not pretty looking attempts just finished on basic one.
 ![](/assets/images/posts/blast-from-the-past/animation4.gif)
 
-Note that bullet casing can be procedurally coded into game so I don't need to animate it, only ejection point, where would bullet casing would spawn from.
 #### Firing
+Note that bullet casing can be procedurally coded into game so I don't need to animate it, only ejection point, where would bullet casing would spawn from.
 ![](/assets/images/posts/blast-from-the-past/animation2.gif)
 #### Movement
 ![](/assets/images/posts/blast-from-the-past/animation3.gif)
