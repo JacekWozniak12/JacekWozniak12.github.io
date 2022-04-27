@@ -1,8 +1,9 @@
 ---
 layout: default
-title: I answer with...
+title: Contact
 ---
 
+I asnwer with...
 ### Mail: 
 jacekwozn14k.work@gmail.com
 
