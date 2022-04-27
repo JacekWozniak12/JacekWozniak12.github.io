@@ -282,3 +282,9 @@ img {
         border-right: 0px solid #fff;
     }
 }
+
+.invert .navbar ul>li>a.selected, .selected
+{
+    color: #ffed4c !important;
+    font-weight: bold;
+}

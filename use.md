@@ -1,8 +1,9 @@
 ---
 layout: default
-title: I Use...
+title: Tools
 ---
 
+I use...
 ### Languages
 #### C#
 Mostly I'm using [**C#**](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/) for my software. I like it having static types and [**generics**](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-methods) support out of the gate - which minimizes both me making mistakes on my part and also gives me ability to create more complex and robust systems quicker. Recently I was reading more about library [**System.Reflection**](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/reflection) and [**System.Attributes**](https://docs.microsoft.com/en-us/dotnet/api/system.attribute?view=net-6.0).
