@@ -1,7 +1,9 @@
 ---
 layout: default
-title: I Like...
+title: Hobby
 ---
+
+I like...
 ### Activities
 #### Tea sipping
 Maybe not most of active things to do, but if you don't mind me, I will drink some tea in my free time. I will prolly drink some coffee too, but nowadays trying to cut it a little bit off.
