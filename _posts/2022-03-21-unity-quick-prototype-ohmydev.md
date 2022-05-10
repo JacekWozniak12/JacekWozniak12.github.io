@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PL] Oh My Dev - Quick Prototyping with Unity"
-categories: [Main, Feed, Unity, Programming, C#]
+categories: [Unity, C#]
 imageLink: "/assets/images/posts/blog-miniatures/blog-ghpages-test.gif"
 appUrl: https://jac3kw0zniak.itch.io/projectile-test
 codeUrl: https://github.com/JacekWozniak12/ghpages-projectile-test/tree/code

@@ -1,0 +1,31 @@
+$c_font: #eee;
+$c_header: green;
+$c_main_header: $c_font;
+$c_background: #090909;
+$c_v1_background: green;
+$c_link: #fbff00;
+$c_nav: #eee;
+$c_white_to_black: #111;
+$c_search_main: #333;
+$c_search_background: $c_background;
+$c_footer_background: #111;
+
+$s_img_margin_vert: 25px;
+
+/* override */
+.entry>img {
+    width: 100%;
+    max-height: 15vh;
+    object-fit: cover;
+}
+
+/* extending */
+
+.open {
+    overflow: visible;
+}
+
+.close {
+    overflow: hidden;
+}
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unity Color API
-categories: [Main, Apps, Unity]
+categories: [Unity, C#]
 imageLink: /assets/images/posts/blog-miniatures/color-api.gif"
 codeUrl: https://github.com/JacekWozniak12/unity-color-api-test
 ---

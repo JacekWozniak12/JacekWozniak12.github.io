@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blast from the past - 3D
-categories: [Feed, Unity, Programming, C#, Blender]
+categories: [C#, Blender]
 imageLink: "/assets/images/posts/blast-from-the-past/Random_Color_Castle.gif"
 ---
 I collected my 3D works from my past. Mostly those will be images from Unity and Blender.

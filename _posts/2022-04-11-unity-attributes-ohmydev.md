@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PL] Oh My Dev - A Few Experiences with Attributes"
-categories: [Feed, Unity, Programming, C#]
+categories: [Unity, C#]
 imageLink: "/assets/images/posts/blog-miniatures/experiences-with-attributes.jpg"
 ---
 Material in link below explains concept of attributes in C# and how those can be used in Unity Engine, 

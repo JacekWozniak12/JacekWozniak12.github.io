@@ -1,12 +1,12 @@
 ---
 ---
-
 //
 // IMPORTS
 //
 
 @import "reset";
 @import "variables";
+@import "style_ext";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -21,9 +21,9 @@ html {
 }
 
 body {
-  background: #fff;
+  background: $c_background;
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #404040;
+  color: $c_font;
   line-height: 1.7;
   font-weight: 400;
   font-size: 18px;
@@ -39,7 +39,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: $darkerGray;
+  color: $c_header;
   font-weight: bold;
 
   line-height: 1.7;
@@ -70,7 +70,7 @@ h2 {
 	    vertical-align: middle;
 	    width: 46px;
 	    height: 1px;
-	    background: rgb(192, 211, 218);
+	    background: rgb(34, 34, 34);
 	    margin: 0px 30px;
 	}
 }
@@ -81,11 +81,12 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #222;
+  color: $c_font;
 }
 
 p {
   margin: 15px 0;
+  text-align: justify;
 }
 
 table {
@@ -94,7 +95,7 @@ table {
 
 table tr {
 	border-top: 1px solid #cccccc;
-	background-color: white;
+	background-color: $c_white_to_black;
 	margin: 0;
 	padding: 0;
 }
@@ -128,13 +129,6 @@ table tr td :last-child {
 	margin-bottom: 0;
 }
 
-/*.detailed .entry p:first-of-type:first-letter {
-    float: left;
-    margin: 0.13em 0.05em 0 -0.05em;
-    font-size: 3.333em;
-    line-height: 0.75em;
-}*/
-
 #search-container {
   text-align: center;
 }
@@ -144,16 +138,16 @@ table tr td :last-child {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid $c_search_main;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
-  background-color: #fff3ff;
+  background-color: $c_search_background;
 }
 
 .share-box {
   font-weight: bold;
-  color: #222;
+  color: $c_font;
 }
 
 span[data-pullquote] {
@@ -221,7 +215,7 @@ img {
 p > img {
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: $s_img_margin_vert auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -306,7 +300,7 @@ p > img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $c_main_header;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -344,14 +338,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $c_link;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $c_link;
     }
   }
 }
@@ -415,7 +409,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: 89px;
-  background-color: $lightGray;
+  background-color: $c_footer_background;
 }
 
 footer {
@@ -568,7 +562,7 @@ Modules - reusable parts of our design
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px $c_white_to_black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -773,7 +767,7 @@ Modules - reusable parts of our design
 .subscribeBtn {
   width: 30%;
   background-color: #4CAF50;
-  color: white;
+  color: $c_white_to_black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -898,7 +892,7 @@ Modules - reusable parts of our design
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #e9f0f5;
+  background: $c_v1_background;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
@@ -909,7 +903,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: $c_header;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
@@ -925,8 +919,8 @@ Modules - reusable parts of our design
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
+  background: $c_v1_background;
+  color: $c_white_to_black;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
@@ -945,7 +939,7 @@ Modules - reusable parts of our design
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid $c_white_to_black;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -971,7 +965,7 @@ Modules - reusable parts of our design
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: $c_white_to_black;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -992,7 +986,7 @@ Modules - reusable parts of our design
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: $c_white_to_black;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
