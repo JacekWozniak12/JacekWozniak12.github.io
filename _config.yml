@@ -1,17 +1,41 @@
-title: Jacek Wozniak 
-subtitle: personal page
+name: Jacek Woźniak
+author: Jacek Woźniak
+description: Personal Page
+avatar: https://avatars.githubusercontent.com/u/43956981?s=400&u=074b94ad3cfbe3dab9e757ed9bcdaedbc2311bbc&v=4
 
-# build
-markdown: kramdown
+footer-links:
+  email: jacekwozn14k.work@gmail.com
+  github: JacekWozniak12
+  twitter: jacekwozn14k
+
+baseurl: ""
+
+permalink: /:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
 sass:
-  style: compressed
+  style: :expanded
 
-collections:
-  apps:
-    output: true
-    permalink: /apps/:title.html
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-  feed:
-    output: true
-    permalink: /feed/:title.html
+include: ['_pages']
+
+paginate: 6
+paginate_path: /page:num/
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
