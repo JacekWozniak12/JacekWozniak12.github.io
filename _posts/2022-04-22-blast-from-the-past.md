@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Blast from the past - 3D
-categories: [C#, Blender]
+categories: [C-Sharp, Blender]
 imageLink: "/assets/images/posts/blast-from-the-past/Random_Color_Castle.gif"
+imageTop: yes
 ---
 I collected my 3D works from my past. Mostly those will be images from Unity and Blender.
 

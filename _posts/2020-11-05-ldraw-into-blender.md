@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Importing from BrickLink Studio into Blender 2.81
-categories: [Blender, 3D]
+categories: [Blender, Graphics]
 imageLink: "/assets/images/posts/ldraw-into-blender/00-main.PNG"
 ---
 How to quickly move your Lego creation into 3D software.

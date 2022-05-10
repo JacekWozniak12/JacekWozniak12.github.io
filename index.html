@@ -13,7 +13,7 @@ layout: default
       </div>
     </a>
     <div class="entry">
-      <img src="{{ post.imageLink }}" alt="">
+      <img src="{{ post.imageLink }}" alt="" class="{% if post.imageTop %}top{% endif %}">
       {{ post.excerpt }}
     </div>
 

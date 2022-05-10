@@ -390,7 +390,6 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
   }
 }
@@ -968,7 +967,7 @@ Modules - reusable parts of our design
     border-left-color: $c_white_to_black;
   }
   .cd-timeline-content .cd-read-more {
-    float: left;
+    float: right;
   }
   .cd-timeline-content .cd-date {
     position: absolute;
